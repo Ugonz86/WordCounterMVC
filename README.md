@@ -2,7 +2,7 @@
 ##### _"Let's count words in a sentence." — by **Uriel Gonzalez** 12/20/2019_
 
 ## Description
-A C# program with 2 initial inputs that gather both a word and a sentence from a user, then checks how frequently the word appears in the sentence. It should check for full word matches only. If the word brain but the sentence is "I like to brainstorm.", the first 5 letters of the word brainstorm will not be counted.
+A C# program with 2 initial inputs that gather both a word and a sentence from a user, then checks how frequently the word appears in the sentence. It should check for full word matches only. If the word is "brain" but the sentence is "I like to brainstorm", the first 5 letters of the word brainstorm will not be counted.
 
 ### Specs
 | Spec | Input | Output |
