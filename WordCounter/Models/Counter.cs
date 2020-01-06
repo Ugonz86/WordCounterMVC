@@ -15,6 +15,21 @@ namespace WordCounter.Models
             SentenceInput = sentence;
         }
 
+        public string PrintWordInput()
+        {
+            return this.WordInput;
+        }
+
+        // public string PrintError()
+        // {
+        //     if (!ValidInput (this.WordInput || !ValidInput(this.SentenceInput))
+        //     {
+        //         return ("Invalid input. Please try again.");
+        //     }
+            
+            
+        // }
+
         public static bool ValidInput(string input)
         {
             bool output = true;
